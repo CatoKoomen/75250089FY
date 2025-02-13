@@ -325,6 +325,7 @@ z_scores_age
 ```{r}
 # Z-score for income
 z_score_income <- (14853 - mean(educ_inc_age_data$income)) / sd(educ_inc_age_data$income)
+z_score_income
 ```
 
 7. Ask for summary statistics for each variable in the dataset using one function. 
