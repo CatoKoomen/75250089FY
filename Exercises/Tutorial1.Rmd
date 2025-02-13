@@ -275,7 +275,7 @@ median_age <- median(educ_inc_age_data$age)
 median_age
 
 # Mode
-# Mode function is not readily available in base R. You can however create our own function (though maybe this is a bit advanced, so we try it later in the course), or use a function from a package, such as DescTool.
+# Mode function is not readily available in base R. You can however create our own function (though maybe this is a bit advanced, so we try it later in the course), or use a function from a package, such as DescTools.
 
 library(DescTools)
 mode_age <- Mode(educ_inc_age_data$age)
