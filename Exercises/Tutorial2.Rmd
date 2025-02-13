@@ -67,7 +67,7 @@ oxis_df <- as.data.frame(oxis_data)
 ```{r}
 vars <- c("trmost","trgov", "accmo", "dg4")
 str(oxis_df[, vars])
-# here we see that the variable labels are saved as "label. By using the funciton attr, we can access the attirbute of interest of the variables.
+# here we see that the variable labels are saved as "label. By using the function "attr()", we can access the attribute of interest of the variables.
 attr(oxis_df$trmost, "label")
 attr(oxis_df$trgov, "label")
 attr(oxis_df$accmo, "label")
