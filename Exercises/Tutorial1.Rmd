@@ -74,7 +74,7 @@ my_matrix <- matrix(c(3, 5, 8, 9, 67, "apple", "banana", "orange", "pear", "pers
 my_matrix_combined <- matrix(c(numeric_vector, character_vector), nrow = 5, ncol = 2, byrow = FALSE)
 ```
 
-8. Would it be possible to create a data frame by combining the three vectors you created in steps 1, 2 and 3? Try it out and see what happens. Note that the vector you created in step 1 has a different length than the vectors in steps 2 and 3.
+8. Would it be possible to create a data frame by combining the three vectors you created in steps 1, 2 and 4? Try it out and see what happens. Note that the vector you created in step 1 has a different length than the vectors in steps 2 and 4.
 ```{r}
 # Create a data frame from the three vectors
 my_data <- data.frame(id, numeric_vector, character_vector)
