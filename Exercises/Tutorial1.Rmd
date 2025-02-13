@@ -193,10 +193,10 @@ educ_inc_age_data$age_group <- NA  # Initialize the new variable with NA values
 # Assign 'Young' to individuals aged less than 30
 educ_inc_age_data$age_group[educ_inc_age_data$age < 30] <- "Young"
 
-# Assign 'Middle-aged' to individuals aged between 30 and 65
+# Assign 'Middle-aged' to individuals aged 30 up to, but not including, 65.
 educ_inc_age_data$age_group[educ_inc_age_data$age >= 30 & educ_inc_age_data$age < 65] <- "Middle-aged"
 
-# Assign 'Elderly' to individuals aged 50 and above
+# Assign 'Elderly' to individuals aged 65 and above
 educ_inc_age_data$age_group[educ_inc_age_data$age >= 65] <- "Elderly"
 
 head(educ_inc_age_data)
