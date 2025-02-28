@@ -12,11 +12,11 @@ output:
 
 In this tutorial, we will carry out exercises on criterion and content validity. We will also deal with some data wrangling tasks. Below you will find detailed information on the data sets we will use.
 
-Overview of  datasets
+Overview of  data sets
 
 - depression_data.csv: A group of social science researchers working in the field of mental health develop a new assessment tool to measure depressive symptoms. To check the concurrent validity of their new tool they run a survey to 300 respondents where they administer their new tool at the same time with the more established measure, the Beck Depression Inventory (BDI). 
 
-- official_records.csv: This data set contain information on the voter turnout for a sample of citizens from offical records.
+- official_records.csv: This data set contains information on the voter turnout for a sample of citizens from official records.
 
 - self_reported_voting.csv: This data set contains the results of a survey in which some citizens were asked about their voting behavior in the last elections.
 
@@ -24,7 +24,7 @@ Overview of  datasets
 
 Organizational Performance Items:
 Financial Performance: This item measures revenue growth.
-Customer Satisfaction: This item  measures customer satisfaction scores.
+Customer Satisfaction: This item measures customer satisfaction scores.
 Employee Productivity: This item measures sales per employee.
 
 Organizational Knowledge Items:
